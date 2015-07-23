@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GoodEnoughCNC-PlasmaCutter
-tagline: Good Enough CNC Plasma Cutter - very low cost and simple, suitable for everyone.
+title: Wireless optical system KORUZA
+tagline: Wireless optical system KORUZA.
 ---
 {% include JB/setup %}
