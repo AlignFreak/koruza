@@ -549,6 +549,7 @@ input.search-form:hover {
 
 .feature-wrap h2{
   margin-top: 10px;
+  text-align: center;
 }
 
 .feature-wrap .pull-left {
@@ -572,8 +573,8 @@ input.search-form:hover {
   -moz-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
-  float: left;
-  margin-right: 25px;
+  /* float: left; */
+  /* margin-right: 25px; */
 }
 
 .feature-wrap i:hover {
