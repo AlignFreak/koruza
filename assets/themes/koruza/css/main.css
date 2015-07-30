@@ -609,6 +609,7 @@ input.search-form:hover {
   display: inline-block;
   vertical-align: top;
   background: rgba(107,175,55,.05);
+  height: 380px;
 }
 
 #what-why-how .boxes:hover {
