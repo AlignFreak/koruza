@@ -605,6 +605,8 @@ input.search-form:hover {
 
 .recent-work-wrap {
   position: relative;
+  overflow: hidden;
+  max-height: 195px;
 }
 
 .recent-work-wrap img{
