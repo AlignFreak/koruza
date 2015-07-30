@@ -595,6 +595,16 @@ input.search-form:hover {
   border: 3px solid #6BAF37;
 }
 
+#what-why-how .boxes {
+  border-radius: 30px;
+  padding: 20px 40px;
+  border: 2px solid #6BAF37;
+}
+
+#what-why-how .boxes:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,.35);
+}
+
 #recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
 }
@@ -646,7 +656,7 @@ input.search-form:hover {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;  
-  padding: 30px;
+  padding: 10px 30px;
 }
 
 .recent-work-wrap .overlay .preview {
