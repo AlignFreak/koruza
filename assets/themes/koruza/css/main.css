@@ -603,13 +603,12 @@ input.search-form:hover {
   border-radius: 30px;
   padding: 20px 30px;
   border: 2px solid #6BAF37;
-  margin: 0 10px;
-  width: 30%;
+  margin: 0 auto 20px auto;
+  width: 90%;
   float: none;
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   background: rgba(107,175,55,.05);
-  height: 380px;
+  height: auto;
 }
 
 #what-why-how .boxes:hover {
@@ -2566,4 +2565,20 @@ shortcodes page css
 #footer ul > li {
   display: inline-block;
   margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  #what-why-how .boxes {
+    border-radius: 30px;
+    padding: 20px 30px;
+    border: 2px solid #6BAF37;
+    margin: 0 10px;
+    width: 30%;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    background: rgba(107,175,55,.05);
+    height: 380px;
+}
+
 }
