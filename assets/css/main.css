@@ -2566,6 +2566,11 @@ shortcodes page css
   margin-left: 15px;
 }
 
+#history h1 {
+  color: #6BAF37;
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   #what-why-how .boxes {
     margin: 0 10px;
