@@ -24,7 +24,7 @@ jQuery(function($) {'use strict',
 	});	
 
 	//Initiat WOW JS
-	/*new WOW().init();*/
+	new WOW().init();
 
 	// portfolio filter
 	/*$(window).load(function(){'use strict';
