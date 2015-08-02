@@ -2609,6 +2609,11 @@ h1.subpages {
   padding-left: none;
 }
 
+#faq .btn-success {
+  background-color: #6BAF37;
+  border-color: #6BAF37;
+}
+
 @media (min-width: 768px) {
   #header {
     position: fixed;
