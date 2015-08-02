@@ -289,7 +289,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #6BAF37;
+	/* background-color: #6BAF37; */
   color: #fff;
 }
 
@@ -2615,7 +2615,16 @@ shortcodes page css
     top: 0;
     z-index: 10;
     width: 100%;
-    background: rgba(0,0,0,.9);
+    background: rgba(51,51,51,.85);
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+  }
+
+  #header:hover {
+    background: rgba(51,51,51,1);
   }
 
   #what-why-how .boxes {
