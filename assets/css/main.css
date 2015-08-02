@@ -2595,7 +2595,8 @@ shortcodes page css
 
 #history .subtitle {
   font-weight: bold;
-  line-height: 34px;
+  top: 10px;
+  position: relative;
 }
 
 #history .oneYear {
