@@ -569,7 +569,7 @@ transition: opacity ease-in-out 500ms; */
   display: inline-block;
 }
 
-.collapse .well p {
+#faq .well p {
   margin: 0;
 }
 
