@@ -545,6 +545,12 @@ input.search-form:hover {
   padding-bottom: 40px;
 }
 
+.accLink {
+  display: block;
+  padding: 7px 0;
+  clear: both;
+}
+
 .features{
   padding: 0;
   text-align: center;
