@@ -21,7 +21,7 @@
     <!-- <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/ico/favicon.ico"> -->
 </head>
 
-<body {% if page.location %} class="{{% page.location %}}" {% endif %}>
+<body class="{% if page.url == '/index.html' %}startpage{% endif %}">
     <header id="header">
 
         <!-- Navigation -->
