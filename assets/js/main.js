@@ -1,10 +1,10 @@
 jQuery(function($) {'use strict',
 
 	//#main-slider
-	$(function(){
+	/*$(function(){
 		$('#headerSlider .carousel').carousel({
 			interval: 5000
 		});
-	});
+	});*/
 
 });
