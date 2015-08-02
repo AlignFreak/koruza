@@ -575,7 +575,7 @@ transition: opacity ease-in-out 500ms; */
 }
 
 .collapse .well p {
-  padding: 0;
+  margin: 0;
 }
 
 .contribute {
@@ -589,6 +589,15 @@ transition: opacity ease-in-out 500ms; */
   position: relative;
   top: 1px;
   margin-right: 10px;
+}
+
+.contactText .fa {
+  margin-right: 5px;
+}
+
+.contactSocial .fa {
+  font-size: 34px;
+  margin-right: 20px;
 }
 
 .features {
