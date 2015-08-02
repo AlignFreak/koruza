@@ -545,10 +545,14 @@ input.search-form:hover {
   padding-bottom: 40px;
 }
 
-.accLink.collapsed {
+.accLink {
   display: block;
   padding: 5px 0;
   clear: both;
+}
+
+.accLink .fa {
+  margin-right: 5px;
 }
 
 .accLink.collapsed .fa-plus-square-o {
@@ -560,11 +564,11 @@ input.search-form:hover {
 }
 
 .accLink .fa-plus-square-o {
-  display: inline-block;
+  display: none;
 }
 
 .accLink .fa-minus-square-o {
-  display: none;
+  display: inline-block;
 }
 
 .collapse .well p {
@@ -573,6 +577,14 @@ input.search-form:hover {
 
 .contribute {
   margin: 20px 0;
+  display: block;
+}
+
+.contribute .fa {
+  font-size: 24px;
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
 }
 
 .features {
