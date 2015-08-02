@@ -2686,6 +2686,10 @@ h1.subpages {
   margin-top: 30px;
 }
 
+.featureImage {
+  margin-bottom: 20px;
+}
+
 #history .oneYear.left {
   padding-left: none;
 }
