@@ -2678,7 +2678,8 @@ h1.subpages {
   padding-left: none;
 }
 
-#faq .btn-success {
+#faq .btn-success,
+#contactPage .btn-success {
   background-color: #6BAF37;
   border-color: #6BAF37;
 }
