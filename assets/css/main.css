@@ -279,7 +279,7 @@ input.search-form:hover {
   padding-bottom: 28px;
 }
 
-.navbar .navbar-inverse {
+.navbar.navbar-inverse {
   position: fixed;
   top: 0;
   z-index: 10;
