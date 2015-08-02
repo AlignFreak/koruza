@@ -2684,6 +2684,14 @@ h1.subpages {
   border-color: #6BAF37;
 }
 
+#contactPage .mc-field-group {
+  margin: 20px 0;
+}
+
+#contactPage .well {
+  margin-top: 15px;
+}
+
 @media (min-width: 768px) {
   #header {
     position: fixed;
