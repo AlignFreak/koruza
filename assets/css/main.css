@@ -2566,7 +2566,7 @@ shortcodes page css
   margin-left: 15px;
 }
 
-#history h1 {
+h1.subpages {
   color: #6BAF37;
   text-transform: uppercase;
 }
