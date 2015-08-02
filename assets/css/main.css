@@ -579,7 +579,8 @@ transition: opacity ease-in-out 500ms; */
   display: inline-block;
 }
 
-#faq .well p {
+#faq .well p,
+#features .well p {
   margin: 0;
 }
 
