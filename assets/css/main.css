@@ -279,6 +279,13 @@ input.search-form:hover {
   padding-bottom: 28px;
 }
 
+.navbar .navbar-inverse {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
 .navbar-inverse .navbar-nav > li > a {
   padding: 5px 12px;
   margin: 0;
