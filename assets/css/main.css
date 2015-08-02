@@ -60,6 +60,10 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+.row {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .btn-primary {
   padding: 8px 20px;
@@ -69,7 +73,6 @@ hr {
   border:none;
   margin-top: 10px;
 }
-
 
 .btn-primary:hover, 
 .btn-primary:focus{
@@ -578,6 +581,7 @@ transition: opacity ease-in-out 500ms; */
 .contribute {
   margin: 20px 0;
   display: inline-block;
+  white-space: normal;
 }
 
 .contribute .fa {
@@ -1052,9 +1056,8 @@ a.accordion-toggle  i{
 }
 
 .partners ul li{
-  display: inline-block;
-  float: left;
-  width: 16.5%;
+  display: block;
+  clear: both;
 }
 
 #conatcat-info{
@@ -2674,6 +2677,13 @@ h1.subpages {
   #headerSlider {
     top: 90px;
     margin-bottom: 90px;
+  }
+
+  .partners ul li {
+    display: inline-block;
+    float: left;
+    width: 16.5%;
+    clear: none;
   }
 }
 
