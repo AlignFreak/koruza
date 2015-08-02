@@ -2571,6 +2571,10 @@ shortcodes page css
   text-transform: uppercase;
 }
 
+#history .dummyImage {
+  display: none;
+}
+
 #history .historyH3 {
   display: block;
   width: auto;
@@ -2605,5 +2609,11 @@ shortcodes page css
     width: 30%;
     display: inline-block;
     vertical-align: top;
+  }
+}
+
+@media (min-width: 1200px) {
+  #history .dummyImage {
+    display: block;
   }
 }
