@@ -605,6 +605,21 @@ transition: opacity ease-in-out 500ms; */
   font-size: 40px;
 }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .features {
   padding: 0;
   text-align: center;
@@ -1072,6 +1087,8 @@ a.accordion-toggle  i{
 .partners ul li{
   display: block;
   clear: both;
+  width: 150px;
+  margin: 20px auto 0;
 }
 
 #conatcat-info{
@@ -2698,6 +2715,7 @@ h1.subpages {
     float: left;
     width: 16.5%;
     clear: none;
+    margin: 0;
   }
 }
 
