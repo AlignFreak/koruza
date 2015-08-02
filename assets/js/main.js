@@ -27,7 +27,7 @@ jQuery(function($) {'use strict',
 	/*new WOW().init();*/
 
 	// portfolio filter
-	$(window).load(function(){'use strict';
+	/*$(window).load(function(){'use strict';
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
 		var $portfolio = $('.portfolio-items');
 		$portfolio.isotope({
@@ -42,10 +42,10 @@ jQuery(function($) {'use strict',
 			$portfolio.isotope({ filter: selector });
 			return false;
 		});
-	});
+	});*/
 
 	// Contact form
-	var form = $('#main-contact-form');
+/*	var form = $('#main-contact-form');
 	form.submit(function(event){
 		event.preventDefault();
 		var form_status = $('<div class="form_status"></div>');
@@ -58,19 +58,19 @@ jQuery(function($) {'use strict',
 		}).done(function(data){
 			form_status.html('<p class="text-success">' + data.message + '</p>').delay(3000).fadeOut();
 		});
-	});
+	});*/
 
 	
 	//goto top
-	$('.gototop').click(function(event) {
+	/*$('.gototop').click(function(event) {
 		event.preventDefault();
 		$('html, body').animate({
 			scrollTop: $("body").offset().top
 		}, 500);
-	});	
+	});	*/
 
 	//Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
+	/*$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});	
+	});	*/
 });
