@@ -2593,6 +2593,11 @@ shortcodes page css
   color: #A5E014; /* Light green */
 }
 
+#history .subtitle {
+  font-weight: bold;
+  line-height: 34px;
+}
+
 #history .oneYear {
   border-top: 1px dotted #6BAF37;
   padding-top: 50px;
