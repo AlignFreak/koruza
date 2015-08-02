@@ -400,6 +400,15 @@ input.search-form:hover {
   display: inline-block;
 }
 
+#headerSlider .readMore {
+  display: none;
+}
+
+
+body.startpage #headerSlider .readMore {
+  display: inline-block;
+}
+
 #headerSlider .slider-img {
   text-align: right;
   position: absolute;
@@ -2691,14 +2700,6 @@ h1.subpages {
 
 #contactPage .well {
   margin-top: 15px;
-}
-
-.readMore {
-  display: none;
-}
-
-.startpage .readMore {
-  display: inline-block;
 }
 
 @media (min-width: 768px) {
