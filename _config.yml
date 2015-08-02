@@ -2,5 +2,7 @@ markdown: redcarpet
 paginate: 5
 baseurl: /koruza
 
+ASSET_PATH : http://alignfreak.github.io/koruza/assets/themes
+
 # gems: 
 #  - jekyll-sitemap
