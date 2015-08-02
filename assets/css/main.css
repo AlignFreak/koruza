@@ -2679,7 +2679,8 @@ h1.subpages {
   position: relative;
 }
 
-#history .oneYear {
+#history .oneYear,
+#features .oneSection {
   border-top: 1px dotted #6BAF37;
   padding-top: 50px;
   margin-top: 30px;
