@@ -545,13 +545,37 @@ input.search-form:hover {
   padding-bottom: 40px;
 }
 
-.accLink {
+.accLink.collapsed {
   display: block;
-  padding: 7px 0;
+  padding: 5px 0;
   clear: both;
 }
 
-.features{
+.accLink.collapsed .fa-plus-square-o {
+  display: inline-block;
+}
+
+.accLink.collapsed .fa-minus-square-o {
+  display: none;
+}
+
+.accLink .fa-plus-square-o {
+  display: inline-block;
+}
+
+.accLink .fa-minus-square-o {
+  display: none;
+}
+
+.collapse .well p {
+  padding: 0;
+}
+
+.contribute {
+  margin: 20px 0;
+}
+
+.features {
   padding: 0;
   text-align: center;
 }
