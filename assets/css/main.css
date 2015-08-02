@@ -595,9 +595,14 @@ transition: opacity ease-in-out 500ms; */
   margin-right: 5px;
 }
 
-.contactSocial .fa {
-  font-size: 34px;
+.contactSocial {
+  display: inline-block;
+  float: left;
   margin-right: 20px;
+}
+
+.contactSocial .fa {
+  font-size: 40px;
 }
 
 .features {
