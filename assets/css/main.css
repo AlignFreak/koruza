@@ -417,10 +417,10 @@ input.search-form:hover {
   width: 100%;
   display: block !important;
   height: 730px;
-  -webkit-transition: opacity ease-in-out 500ms;
-  -moz-transition: opacity ease-in-out 500ms;
-  -o-transition: opacity ease-in-out 500ms;
-  transition: opacity ease-in-out 500ms;
+/*   -webkit-transition: opacity ease-in-out 500ms;
+-moz-transition: opacity ease-in-out 500ms;
+-o-transition: opacity ease-in-out 500ms;
+transition: opacity ease-in-out 500ms; */
 }
 
 #headerSlider .item:first-child {
@@ -577,7 +577,7 @@ input.search-form:hover {
 
 .contribute {
   margin: 20px 0;
-  display: block;
+  display: inline-block;
 }
 
 .contribute .fa {
