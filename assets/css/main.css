@@ -361,8 +361,6 @@ input.search-form:hover {
 /*************************
 *******Home Page******
 **************************/
-
-
 #headerSlider {
   position: relative;
 }
@@ -376,7 +374,7 @@ input.search-form:hover {
   margin-top: 50px;
 }
 
-#headerSlider .slide-margin{
+#headerSlider .slide-margin {
   margin-top: 140px;
 }
 
@@ -403,7 +401,7 @@ input.search-form:hover {
   display: inline-block;
 }
 
-#headerSlider .slider-img{
+#headerSlider .slider-img {
   text-align: right;
   position: absolute;
 }
@@ -458,7 +456,7 @@ input.search-form:hover {
 
 #headerSlider .prev:hover,
 #headerSlider .next:hover {
-  background-color: #000;
+  background-color: #333;
 }
 
 #headerSlider .prev {
@@ -489,7 +487,7 @@ input.search-form:hover {
   top: -3px;
 }
 
-#headerSlider .carousel-indicators .active{
+#headerSlider .carousel-indicators .active {
   width: 20px;
   height: 20px;
   background-color: #6BAF37;
