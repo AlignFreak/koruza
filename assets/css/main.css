@@ -10,6 +10,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
+  margin-top: 90px;
+}
+
+body.startpage {
+  margin-top: 0;
 }
 
 h1,
@@ -1070,8 +1075,9 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
-  background-size: cover;
+  /* background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background-size: cover; */
+  background: #e3e3e3;
 }
 
 #partner {
@@ -1081,7 +1087,7 @@ a.accordion-toggle  i{
 
 #partner h2, 
 #partner h3 {
-  color: #fff;
+  color: #4e4e4e;
 }
 
 .partners ul {
