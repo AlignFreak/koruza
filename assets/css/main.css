@@ -1101,11 +1101,15 @@ a.accordion-toggle  i{
   padding: 0;
 }
 
-.partners ul li{
+.partners ul li {
   display: block;
   clear: both;
   width: 150px;
   margin: 20px auto 0;
+}
+
+.partners ul li.biggerLogo {
+  width: 200px;
 }
 
 #conatcat-info{
@@ -2755,9 +2759,13 @@ h1.subpages {
   .partners ul li {
     display: inline-block;
     float: left;
-    width: 16.5%;
+    width: 15%;
     clear: none;
     margin: 0;
+  }
+
+  .partners ul li.biggerLogo {
+    width: 20%;
   }
 }
 
