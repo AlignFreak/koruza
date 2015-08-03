@@ -998,15 +998,15 @@ a.accordion-toggle  i{
   padding: 13px 15px;
 }
 
-.nav-tabs li:last-child{
+.nav-tabs li:last-child {
   border-bottom: 0 none;
 } 
 
-.nav-stacked>li+li{
+.nav-stacked>li+li {
   margin-top: 0;
 }
 
-.nav-tabs>li>a:hover{
+.nav-tabs>li>a:hover {
   background: #1f1f20;
   color:#fff;
 }
@@ -1032,20 +1032,20 @@ a.accordion-toggle  i{
   top:0;
 }
 
-.tab-wrap{
+.tab-wrap {
   border:1px solid #e6e6e6;
   margin-bottom: 20px;
 }
 
-.tab-content{
+.tab-content {
   padding: 20px;
 }
 
-.tab-content h2{
+.tab-content h2 {
   margin-top: 0;
 }
 
-.tab-content img{
+.tab-content img {
   border-radius: 4px;
 }
 
@@ -1058,13 +1058,13 @@ a.accordion-toggle  i{
   font-size: 14px;
 }
 
-.testimonial-inner .pull-left{
+.testimonial-inner .pull-left {
   border-right: 1px solid #e7e7e7;
   padding-right: 15px;
   position: relative;
 }
 
-.testimonial-inner .pull-left:after{
+.testimonial-inner .pull-left:after {
   content: "";
   position: absolute;
   width: 9px;
@@ -1082,10 +1082,8 @@ a.accordion-toggle  i{
 #partner {
   /* background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover; */
-  background: #e3e3e3;
-}
-
-#partner {
+  background: #fff;
+  border-top: 1px dotted #e3e3e3;
   color: #fff;
   text-align: center;
 }
@@ -1112,11 +1110,12 @@ a.accordion-toggle  i{
   width: 200px;
 }
 
-#conatcat-info{
+#contact-info{
   padding: 30px 0;
+  background: #f5f5f5;
 }
 
-.contact-info i{
+.contact-info i {
   width: 60px;
   height: 60px;
   font-size: 40px;
@@ -1127,12 +1126,12 @@ a.accordion-toggle  i{
   border-radius: 10px;
 }
 
-.contact-info h2{
+.contact-info h2 {
   margin-top: 0;
   color: #333;
 }
 
-.contact-info{
+.contact-info {
   color:#333;
 }
 
