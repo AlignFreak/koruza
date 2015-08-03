@@ -2713,6 +2713,12 @@ h1.subpages {
   text-align: center;
 }
 
+.anchor {
+  display: block;
+  width: 100%;
+  height: 89px;
+}
+
 @media (min-width: 768px) {
   #header {
     position: fixed;
