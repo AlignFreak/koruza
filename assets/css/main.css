@@ -2760,11 +2760,12 @@ h1.subpages {
     float: left;
     width: 15%;
     clear: none;
-    margin: 0;
+    margin: 10px 0 0;
   }
 
   .partners ul li.biggerLogo {
     width: 20%;
+    margin: 0;
   }
 }
 
