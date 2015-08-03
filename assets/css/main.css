@@ -2680,7 +2680,8 @@ h1.subpages {
 }
 
 #history .oneYear,
-#features .oneSection {
+#features .oneSection,
+#whom .oneSection {
   border-top: 1px dotted #6BAF37;
   padding-top: 50px;
   margin-top: 30px;
@@ -2706,6 +2707,10 @@ h1.subpages {
 
 #contactPage .well {
   margin-top: 15px;
+}
+
+.oneIcon {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
