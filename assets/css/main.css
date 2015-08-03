@@ -2632,9 +2632,6 @@ shortcodes page css
   padding-bottom: 30px;
   color: #fff;
   background: #333;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 #footer a {
