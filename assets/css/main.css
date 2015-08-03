@@ -121,6 +121,10 @@ body > section {
   padding: 70px 0;
 }
 
+body > section#partner {
+  padding: 30px 0;
+}
+
 .center {
   text-align: center;
   padding-bottom: 55px;
